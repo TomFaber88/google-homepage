@@ -1,0 +1,97 @@
+/*
+  ========================================
+  Navbar
+  ========================================
+*/
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	float: right;
+	padding-left: 15px;
+}
+
+.navbar {
+	display: block;
+	height: 150px;
+}
+
+/*
+  ========================================
+  Styles
+  ========================================
+*/
+
+body {
+	font-family: arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	display: block;
+	border: 1px solid red;
+}
+
+#logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+.search {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border: 1px solid red;
+	width: 500px;
+}
+
+#search {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+#search input {
+	width: 500px;
+}
+
+.buttons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	border: 1px solid red;
+	width: 300px;
+	text-align: center;
+}
+
+.buttons input {
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid red;
+	width: 125px;
+}
+
